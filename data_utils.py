@@ -12,7 +12,7 @@ def read_data(dataset, path):
         with open(path, 'r') as f:
             data = f.read()
 
-        bsdata = BeautifulSoup(data, "xml")
+        bsdata = BeautifulSoup(data, "lxml")
         sentence = bsdata.find_all('sentence')
  
         data = []

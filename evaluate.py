@@ -189,7 +189,7 @@ if __name__ == '__main__':
         test_token_type_ids = torch.tensor(test_data.data['token_type_ids']).to(device)
         test_attention_mask = torch.tensor(test_data.data['attention_mask']).to(device)
 
-        models[i].load_state_dict(torch.load(os.path.join(weight_folder, args.dataset, f'{model_names[i]}-{args.dataset}.pth')))
+        models[i].load_state_dict(torch.load(os.path.join(weight_folder, args.dataset, f'{model_names[i]}-{args.dataset}.pth'), map_location=device))
         models[i].to(device)
         logger.info(f'Restore {model_names[i]} model !')
     
