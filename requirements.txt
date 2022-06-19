@@ -1,0 +1,7 @@
+numpy
+beautifulsoup4
+transformers
+torch
+sentencepiece
+matplotlib
+seaborn

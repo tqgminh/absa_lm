@@ -1,0 +1,325 @@
+- Model name: bert
+- Dataset: res16
+- Optimizer: adam
+- Learning rate: 1e-05
+- Dropout: 0.1
+- Num epoch: 30
+- Batch size: 64
+- Pretrained name: bert-base-uncased
+- Pretrained dim: 768
+- Max seq len: 50
+- Polarities dim: 3
+- Device: None 
+
+Train size: 2000
+Dev size: 300
+Test size: 751
+
+Epoch 1|30:
+Batch 1|32: loss 1.0685 accuracy 0.4844
+Batch 11|32: loss 0.7417 accuracy 0.7188
+Batch 21|32: loss 0.3824 accuracy 0.8594
+Batch 31|32: loss 0.4479 accuracy 0.8750
+Batch 32|32: loss 0.2355 accuracy 0.9375
+Loss 0.6016 accuracy 0.7520
+Time: 13.93
+Dev: loss 0.3830 accuracy 0.8815 f1 0.6499
+Save model weight !
+
+Epoch 2|30:
+Batch 1|32: loss 0.3088 accuracy 0.9062
+Batch 11|32: loss 0.2961 accuracy 0.8750
+Batch 21|32: loss 0.2795 accuracy 0.9062
+Batch 31|32: loss 0.2661 accuracy 0.9219
+Batch 32|32: loss 0.2821 accuracy 0.9375
+Loss 0.3605 accuracy 0.8735
+Time: 14.11
+Dev: loss 0.3645 accuracy 0.8707 f1 0.6402
+
+Epoch 3|30:
+Batch 1|32: loss 0.3414 accuracy 0.8906
+Batch 11|32: loss 0.2816 accuracy 0.8906
+Batch 21|32: loss 0.2368 accuracy 0.9062
+Batch 31|32: loss 0.2461 accuracy 0.9219
+Batch 32|32: loss 0.3627 accuracy 0.8125
+Loss 0.2665 accuracy 0.9004
+Time: 14.44
+Dev: loss 0.4089 accuracy 0.8801 f1 0.6820
+Save model weight !
+
+Epoch 4|30:
+Batch 1|32: loss 0.1614 accuracy 0.9688
+Batch 11|32: loss 0.2380 accuracy 0.9062
+Batch 21|32: loss 0.1796 accuracy 0.9062
+Batch 31|32: loss 0.2158 accuracy 0.9062
+Batch 32|32: loss 0.0785 accuracy 1.0000
+Loss 0.2029 accuracy 0.9194
+Time: 14.66
+Dev: loss 0.3946 accuracy 0.8707 f1 0.6999
+Save model weight !
+
+Epoch 5|30:
+Batch 1|32: loss 0.1310 accuracy 0.9375
+Batch 11|32: loss 0.1521 accuracy 0.9375
+Batch 21|32: loss 0.1168 accuracy 0.9219
+Batch 31|32: loss 0.1337 accuracy 0.9531
+Batch 32|32: loss 0.1422 accuracy 0.9375
+Loss 0.1601 accuracy 0.9351
+Time: 14.91
+Dev: loss 0.4593 accuracy 0.8568 f1 0.6874
+
+Epoch 6|30:
+Batch 1|32: loss 0.1125 accuracy 0.9688
+Batch 11|32: loss 0.0801 accuracy 0.9844
+Batch 21|32: loss 0.0413 accuracy 1.0000
+Batch 31|32: loss 0.1307 accuracy 0.9531
+Batch 32|32: loss 0.2002 accuracy 0.8750
+Loss 0.1265 accuracy 0.9526
+Time: 15.21
+Dev: loss 0.4419 accuracy 0.8707 f1 0.7017
+Save model weight !
+
+Epoch 7|30:
+Batch 1|32: loss 0.1056 accuracy 0.9375
+Batch 11|32: loss 0.0561 accuracy 0.9844
+Batch 21|32: loss 0.0901 accuracy 0.9531
+Batch 31|32: loss 0.1291 accuracy 0.9531
+Batch 32|32: loss 0.1624 accuracy 0.9375
+Loss 0.1057 accuracy 0.9600
+Time: 15.55
+Dev: loss 0.4659 accuracy 0.8770 f1 0.7009
+
+Epoch 8|30:
+Batch 1|32: loss 0.1171 accuracy 0.9688
+Batch 11|32: loss 0.1036 accuracy 0.9688
+Batch 21|32: loss 0.0817 accuracy 0.9844
+Batch 31|32: loss 0.1520 accuracy 0.9219
+Batch 32|32: loss 0.0204 accuracy 1.0000
+Loss 0.0813 accuracy 0.9668
+Time: 16.00
+Dev: loss 0.4833 accuracy 0.8707 f1 0.7475
+Save model weight !
+
+Epoch 9|30:
+Batch 1|32: loss 0.0647 accuracy 0.9531
+Batch 11|32: loss 0.0985 accuracy 0.9531
+Batch 21|32: loss 0.0282 accuracy 1.0000
+Batch 31|32: loss 0.0589 accuracy 0.9844
+Batch 32|32: loss 0.0837 accuracy 0.9375
+Loss 0.0666 accuracy 0.9678
+Time: 15.91
+Dev: loss 0.5081 accuracy 0.8537 f1 0.6923
+
+Epoch 10|30:
+Batch 1|32: loss 0.0110 accuracy 1.0000
+Batch 11|32: loss 0.0475 accuracy 0.9844
+Batch 21|32: loss 0.0453 accuracy 0.9844
+Batch 31|32: loss 0.0332 accuracy 1.0000
+Batch 32|32: loss 0.0970 accuracy 0.9375
+Loss 0.0599 accuracy 0.9712
+Time: 15.79
+Dev: loss 0.5335 accuracy 0.8537 f1 0.6955
+
+Epoch 11|30:
+Batch 1|32: loss 0.0610 accuracy 0.9688
+Batch 11|32: loss 0.0656 accuracy 0.9844
+Batch 21|32: loss 0.0368 accuracy 0.9688
+Batch 31|32: loss 0.0712 accuracy 0.9688
+Batch 32|32: loss 0.0461 accuracy 1.0000
+Loss 0.0523 accuracy 0.9766
+Time: 15.71
+Dev: loss 0.5745 accuracy 0.8614 f1 0.7015
+
+Epoch 12|30:
+Batch 1|32: loss 0.0558 accuracy 0.9688
+Batch 11|32: loss 0.0297 accuracy 0.9844
+Batch 21|32: loss 0.0148 accuracy 1.0000
+Batch 31|32: loss 0.0624 accuracy 0.9531
+Batch 32|32: loss 0.0084 accuracy 1.0000
+Loss 0.0457 accuracy 0.9746
+Time: 15.72
+Dev: loss 0.5694 accuracy 0.8676 f1 0.7114
+
+Epoch 13|30:
+Batch 1|32: loss 0.0390 accuracy 1.0000
+Batch 11|32: loss 0.0257 accuracy 0.9844
+Batch 21|32: loss 0.0069 accuracy 1.0000
+Batch 31|32: loss 0.0275 accuracy 0.9844
+Batch 32|32: loss 0.0341 accuracy 1.0000
+Loss 0.0434 accuracy 0.9751
+Time: 15.78
+Dev: loss 0.6305 accuracy 0.8443 f1 0.6954
+
+Epoch 14|30:
+Batch 1|32: loss 0.0519 accuracy 0.9688
+Batch 11|32: loss 0.0901 accuracy 0.9375
+Batch 21|32: loss 0.0351 accuracy 0.9844
+Batch 31|32: loss 0.0401 accuracy 0.9844
+Batch 32|32: loss 0.0789 accuracy 0.9375
+Loss 0.0470 accuracy 0.9741
+Time: 15.77
+Dev: loss 0.6012 accuracy 0.8582 f1 0.7042
+
+Epoch 15|30:
+Batch 1|32: loss 0.0670 accuracy 0.9688
+Batch 11|32: loss 0.0291 accuracy 0.9688
+Batch 21|32: loss 0.0478 accuracy 0.9844
+Batch 31|32: loss 0.0486 accuracy 0.9688
+Batch 32|32: loss 0.0747 accuracy 0.9375
+Loss 0.0420 accuracy 0.9751
+Time: 15.76
+Dev: loss 0.6265 accuracy 0.8597 f1 0.7292
+
+Epoch 16|30:
+Batch 1|32: loss 0.0392 accuracy 0.9844
+Batch 11|32: loss 0.0236 accuracy 1.0000
+Batch 21|32: loss 0.0152 accuracy 1.0000
+Batch 31|32: loss 0.0507 accuracy 0.9688
+Batch 32|32: loss 0.0395 accuracy 1.0000
+Loss 0.0382 accuracy 0.9790
+Time: 15.71
+Dev: loss 0.6872 accuracy 0.8551 f1 0.7164
+
+Epoch 17|30:
+Batch 1|32: loss 0.0731 accuracy 0.9531
+Batch 11|32: loss 0.0365 accuracy 0.9688
+Batch 21|32: loss 0.1170 accuracy 0.9844
+Batch 31|32: loss 0.0298 accuracy 0.9844
+Batch 32|32: loss 0.0034 accuracy 1.0000
+Loss 0.0454 accuracy 0.9775
+Time: 15.74
+Dev: loss 0.6980 accuracy 0.8537 f1 0.6934
+
+Epoch 18|30:
+Batch 1|32: loss 0.0258 accuracy 0.9844
+Batch 11|32: loss 0.0454 accuracy 0.9531
+Batch 21|32: loss 0.0146 accuracy 1.0000
+Batch 31|32: loss 0.0574 accuracy 0.9531
+Batch 32|32: loss 0.0590 accuracy 0.9375
+Loss 0.0363 accuracy 0.9775
+Time: 15.80
+Dev: loss 0.7625 accuracy 0.8628 f1 0.7363
+
+Epoch 19|30:
+Batch 1|32: loss 0.0242 accuracy 0.9844
+Batch 11|32: loss 0.0472 accuracy 0.9688
+Batch 21|32: loss 0.0404 accuracy 0.9844
+Batch 31|32: loss 0.0900 accuracy 0.9688
+Batch 32|32: loss 0.0018 accuracy 1.0000
+Loss 0.0347 accuracy 0.9834
+Time: 15.86
+Dev: loss 0.6766 accuracy 0.8366 f1 0.6882
+
+Epoch 20|30:
+Batch 1|32: loss 0.0072 accuracy 1.0000
+Batch 11|32: loss 0.0362 accuracy 0.9844
+Batch 21|32: loss 0.0156 accuracy 1.0000
+Batch 31|32: loss 0.0290 accuracy 0.9688
+Batch 32|32: loss 0.0831 accuracy 0.9375
+Loss 0.0344 accuracy 0.9790
+Time: 15.80
+Dev: loss 0.7733 accuracy 0.8457 f1 0.6722
+
+Epoch 21|30:
+Batch 1|32: loss 0.0464 accuracy 0.9531
+Batch 11|32: loss 0.0237 accuracy 1.0000
+Batch 21|32: loss 0.0654 accuracy 0.9844
+Batch 31|32: loss 0.0014 accuracy 1.0000
+Batch 32|32: loss 0.0689 accuracy 0.9375
+Loss 0.0378 accuracy 0.9771
+Time: 15.76
+Dev: loss 0.7296 accuracy 0.8537 f1 0.6635
+
+Epoch 22|30:
+Batch 1|32: loss 0.0281 accuracy 0.9844
+Batch 11|32: loss 0.0229 accuracy 0.9844
+Batch 21|32: loss 0.0018 accuracy 1.0000
+Batch 31|32: loss 0.0359 accuracy 0.9844
+Batch 32|32: loss 0.0010 accuracy 1.0000
+Loss 0.0322 accuracy 0.9800
+Time: 15.71
+Dev: loss 0.7506 accuracy 0.8537 f1 0.6620
+
+Epoch 23|30:
+Batch 1|32: loss 0.0228 accuracy 0.9844
+Batch 11|32: loss 0.0105 accuracy 1.0000
+Batch 21|32: loss 0.0630 accuracy 0.9531
+Batch 31|32: loss 0.0563 accuracy 0.9688
+Batch 32|32: loss 0.0685 accuracy 0.9375
+Loss 0.0336 accuracy 0.9761
+Time: 15.72
+Dev: loss 0.7295 accuracy 0.8474 f1 0.6348
+
+Epoch 24|30:
+Batch 1|32: loss 0.0491 accuracy 0.9688
+Batch 11|32: loss 0.0635 accuracy 0.9688
+Batch 21|32: loss 0.0182 accuracy 0.9844
+Batch 31|32: loss 0.0057 accuracy 1.0000
+Batch 32|32: loss 0.0010 accuracy 1.0000
+Loss 0.0306 accuracy 0.9805
+Time: 15.75
+Dev: loss 0.7225 accuracy 0.8551 f1 0.7049
+
+Epoch 25|30:
+Batch 1|32: loss 0.0342 accuracy 0.9688
+Batch 11|32: loss 0.0146 accuracy 0.9844
+Batch 21|32: loss 0.0508 accuracy 0.9531
+Batch 31|32: loss 0.0308 accuracy 0.9688
+Batch 32|32: loss 0.0012 accuracy 1.0000
+Loss 0.0313 accuracy 0.9775
+Time: 15.79
+Dev: loss 0.7482 accuracy 0.8614 f1 0.6734
+
+Epoch 26|30:
+Batch 1|32: loss 0.0257 accuracy 0.9688
+Batch 11|32: loss 0.0310 accuracy 0.9844
+Batch 21|32: loss 0.0598 accuracy 0.9531
+Batch 31|32: loss 0.0207 accuracy 0.9844
+Batch 32|32: loss 0.0008 accuracy 1.0000
+Loss 0.0301 accuracy 0.9800
+Time: 15.82
+Dev: loss 0.7697 accuracy 0.8443 f1 0.6294
+
+Epoch 27|30:
+Batch 1|32: loss 0.0179 accuracy 0.9844
+Batch 11|32: loss 0.0432 accuracy 0.9688
+Batch 21|32: loss 0.0157 accuracy 0.9844
+Batch 31|32: loss 0.0355 accuracy 0.9688
+Batch 32|32: loss 0.0008 accuracy 1.0000
+Loss 0.0297 accuracy 0.9790
+Time: 15.80
+Dev: loss 0.7986 accuracy 0.8474 f1 0.6576
+
+Epoch 28|30:
+Batch 1|32: loss 0.0116 accuracy 1.0000
+Batch 11|32: loss 0.0308 accuracy 0.9844
+Batch 21|32: loss 0.0344 accuracy 0.9844
+Batch 31|32: loss 0.0573 accuracy 0.9844
+Batch 32|32: loss 0.0008 accuracy 1.0000
+Loss 0.0286 accuracy 0.9819
+Time: 15.79
+Dev: loss 0.7573 accuracy 0.8582 f1 0.6966
+
+Epoch 29|30:
+Batch 1|32: loss 0.0358 accuracy 0.9688
+Batch 11|32: loss 0.0276 accuracy 0.9688
+Batch 21|32: loss 0.0623 accuracy 0.9688
+Batch 31|32: loss 0.0176 accuracy 0.9844
+Batch 32|32: loss 0.0056 accuracy 1.0000
+Loss 0.0294 accuracy 0.9795
+Time: 15.79
+Dev: loss 0.8170 accuracy 0.8551 f1 0.6950
+
+Epoch 30|30:
+Batch 1|32: loss 0.0103 accuracy 1.0000
+Batch 11|32: loss 0.0591 accuracy 0.9531
+Batch 21|32: loss 0.0258 accuracy 0.9688
+Batch 31|32: loss 0.0915 accuracy 0.9219
+Batch 32|32: loss 0.0011 accuracy 1.0000
+Loss 0.0304 accuracy 0.9756
+Time: 15.79
+Dev: loss 0.8666 accuracy 0.8443 f1 0.6479
+
+Restore best model !
+Test: accuracy 0.8602 f1 0.7007 
+

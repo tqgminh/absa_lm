@@ -1,0 +1,746 @@
+- Dataset: res16
+- Optimizer: adam
+- Learning rate: 0.001
+- Num epoch: 100
+- Batch size: 16
+- Hidden dim: 100
+- Polarities dim: 3
+- Device: None 
+
+Restore roberta model !
+Dev: accuracy 0.8860 f1 0.7933
+
+Restore bert model !
+Dev: accuracy 0.8662 f1 0.7673
+
+Restore xlnet model !
+Dev: accuracy 0.8717 f1 0.7628
+
+Restore xlmr model !
+Dev: accuracy 0.8564 f1 0.7532
+
+Start training meta model!
+
+Epoch 1|100:
+Batch 1|13: loss 1.0218 accuracy 0.5000
+Batch 11|13: loss 0.4065 accuracy 0.9375
+Loss 0.5204 accuracy 0.8462 f1 0.7013
+Time: 0.03
+Dev: loss 0.4255 accuracy 0.8393 f1 0.6599
+Save model weight !
+
+Epoch 2|100:
+Batch 1|13: loss 0.5487 accuracy 0.7500
+Batch 11|13: loss 0.5449 accuracy 0.8125
+Loss 0.3481 accuracy 0.8894 f1 0.7688
+Time: 0.03
+Dev: loss 0.4062 accuracy 0.8393 f1 0.6613
+Save model weight !
+
+Epoch 3|100:
+Batch 1|13: loss 0.1510 accuracy 1.0000
+Batch 11|13: loss 0.1870 accuracy 0.9375
+Loss 0.3654 accuracy 0.8798 f1 0.7434
+Time: 0.03
+Dev: loss 0.5162 accuracy 0.8304 f1 0.7092
+Save model weight !
+
+Epoch 4|100:
+Batch 1|13: loss 0.2361 accuracy 0.9375
+Batch 11|13: loss 0.2529 accuracy 0.9375
+Loss 0.3310 accuracy 0.8942 f1 0.8068
+Time: 0.03
+Dev: loss 0.4108 accuracy 0.8661 f1 0.7859
+Save model weight !
+
+Epoch 5|100:
+Batch 1|13: loss 0.3279 accuracy 0.8750
+Batch 11|13: loss 0.2840 accuracy 0.8750
+Loss 0.3358 accuracy 0.8894 f1 0.8207
+Time: 0.03
+Dev: loss 0.3766 accuracy 0.8929 f1 0.8136
+Save model weight !
+
+Epoch 6|100:
+Batch 1|13: loss 0.2800 accuracy 0.9375
+Batch 11|13: loss 0.4254 accuracy 0.8125
+Loss 0.3151 accuracy 0.8942 f1 0.7842
+Time: 0.03
+Dev: loss 0.4242 accuracy 0.8661 f1 0.7893
+
+Epoch 7|100:
+Batch 1|13: loss 0.3491 accuracy 0.8750
+Batch 11|13: loss 0.3542 accuracy 0.8750
+Loss 0.3109 accuracy 0.8990 f1 0.8071
+Time: 0.03
+Dev: loss 0.4283 accuracy 0.8661 f1 0.7832
+
+Epoch 8|100:
+Batch 1|13: loss 0.2292 accuracy 0.8750
+Batch 11|13: loss 0.3892 accuracy 0.8125
+Loss 0.3329 accuracy 0.8798 f1 0.7928
+Time: 0.03
+Dev: loss 0.3692 accuracy 0.8839 f1 0.8099
+
+Epoch 9|100:
+Batch 1|13: loss 0.4030 accuracy 0.9375
+Batch 11|13: loss 0.5362 accuracy 0.7500
+Loss 0.3015 accuracy 0.8990 f1 0.7578
+Time: 0.03
+Dev: loss 0.3670 accuracy 0.8750 f1 0.8056
+
+Epoch 10|100:
+Batch 1|13: loss 0.0737 accuracy 1.0000
+Batch 11|13: loss 0.1657 accuracy 1.0000
+Loss 0.3162 accuracy 0.8990 f1 0.7826
+Time: 0.03
+Dev: loss 0.4371 accuracy 0.8571 f1 0.7551
+
+Epoch 11|100:
+Batch 1|13: loss 0.1037 accuracy 1.0000
+Batch 11|13: loss 0.5445 accuracy 0.7500
+Loss 0.3021 accuracy 0.8990 f1 0.7936
+Time: 0.03
+Dev: loss 0.3643 accuracy 0.8750 f1 0.8079
+
+Epoch 12|100:
+Batch 1|13: loss 0.3479 accuracy 0.8125
+Batch 11|13: loss 0.0847 accuracy 1.0000
+Loss 0.3053 accuracy 0.8990 f1 0.7998
+Time: 0.03
+Dev: loss 0.3656 accuracy 0.8839 f1 0.7978
+
+Epoch 13|100:
+Batch 1|13: loss 0.5560 accuracy 0.7500
+Batch 11|13: loss 0.1054 accuracy 1.0000
+Loss 0.2943 accuracy 0.9038 f1 0.8179
+Time: 0.03
+Dev: loss 0.4259 accuracy 0.8571 f1 0.7790
+
+Epoch 14|100:
+Batch 1|13: loss 0.2190 accuracy 0.9375
+Batch 11|13: loss 0.3877 accuracy 0.8750
+Loss 0.3054 accuracy 0.9038 f1 0.8112
+Time: 0.04
+Dev: loss 0.3697 accuracy 0.8839 f1 0.8016
+
+Epoch 15|100:
+Batch 1|13: loss 0.3372 accuracy 0.9375
+Batch 11|13: loss 0.4356 accuracy 0.8125
+Loss 0.2858 accuracy 0.9087 f1 0.8141
+Time: 0.04
+Dev: loss 0.3705 accuracy 0.8839 f1 0.7691
+
+Epoch 16|100:
+Batch 1|13: loss 0.3411 accuracy 0.8750
+Batch 11|13: loss 0.1919 accuracy 0.9375
+Loss 0.2747 accuracy 0.9135 f1 0.8255
+Time: 0.03
+Dev: loss 0.3828 accuracy 0.8839 f1 0.8030
+
+Epoch 17|100:
+Batch 1|13: loss 0.1745 accuracy 0.9375
+Batch 11|13: loss 0.1268 accuracy 0.9375
+Loss 0.2900 accuracy 0.9038 f1 0.8137
+Time: 0.03
+Dev: loss 0.4324 accuracy 0.8571 f1 0.7332
+
+Epoch 18|100:
+Batch 1|13: loss 0.0777 accuracy 1.0000
+Batch 11|13: loss 0.0928 accuracy 1.0000
+Loss 0.2841 accuracy 0.9087 f1 0.8843
+Time: 0.03
+Dev: loss 0.4441 accuracy 0.8571 f1 0.7461
+
+Epoch 19|100:
+Batch 1|13: loss 0.2914 accuracy 0.9375
+Batch 11|13: loss 0.2147 accuracy 0.8750
+Loss 0.2745 accuracy 0.9087 f1 0.8032
+Time: 0.03
+Dev: loss 0.4221 accuracy 0.8571 f1 0.7450
+
+Epoch 20|100:
+Batch 1|13: loss 0.1177 accuracy 1.0000
+Batch 11|13: loss 0.6048 accuracy 0.8125
+Loss 0.2779 accuracy 0.9087 f1 0.8347
+Time: 0.03
+Dev: loss 0.3666 accuracy 0.8839 f1 0.8077
+
+Epoch 21|100:
+Batch 1|13: loss 0.5422 accuracy 0.8125
+Batch 11|13: loss 0.2114 accuracy 0.8750
+Loss 0.2745 accuracy 0.9087 f1 0.8163
+Time: 0.03
+Dev: loss 0.3730 accuracy 0.8839 f1 0.7794
+
+Epoch 22|100:
+Batch 1|13: loss 0.5160 accuracy 0.7500
+Batch 11|13: loss 0.0720 accuracy 1.0000
+Loss 0.2617 accuracy 0.9135 f1 0.8460
+Time: 0.03
+Dev: loss 0.3694 accuracy 0.8839 f1 0.7706
+
+Epoch 23|100:
+Batch 1|13: loss 0.3558 accuracy 0.8750
+Batch 11|13: loss 0.3192 accuracy 0.8125
+Loss 0.2572 accuracy 0.9135 f1 0.8392
+Time: 0.03
+Dev: loss 0.3723 accuracy 0.8839 f1 0.7861
+
+Epoch 24|100:
+Batch 1|13: loss 0.2859 accuracy 0.8750
+Batch 11|13: loss 0.3959 accuracy 0.8125
+Loss 0.2595 accuracy 0.9135 f1 0.8547
+Time: 0.03
+Dev: loss 0.3745 accuracy 0.8750 f1 0.7849
+
+Epoch 25|100:
+Batch 1|13: loss 0.1001 accuracy 1.0000
+Batch 11|13: loss 0.0701 accuracy 1.0000
+Loss 0.2620 accuracy 0.9087 f1 0.8349
+Time: 0.03
+Dev: loss 0.3747 accuracy 0.8839 f1 0.7570
+
+Epoch 26|100:
+Batch 1|13: loss 0.3032 accuracy 0.8125
+Batch 11|13: loss 0.4397 accuracy 0.8750
+Loss 0.2550 accuracy 0.9135 f1 0.8709
+Time: 0.03
+Dev: loss 0.3752 accuracy 0.8839 f1 0.7887
+
+Epoch 27|100:
+Batch 1|13: loss 0.2114 accuracy 0.8750
+Batch 11|13: loss 0.3720 accuracy 0.9375
+Loss 0.2497 accuracy 0.9135 f1 0.8518
+Time: 0.03
+Dev: loss 0.3689 accuracy 0.8839 f1 0.7953
+
+Epoch 28|100:
+Batch 1|13: loss 0.4611 accuracy 0.8750
+Batch 11|13: loss 0.3542 accuracy 0.8750
+Loss 0.2486 accuracy 0.9135 f1 0.8474
+Time: 0.03
+Dev: loss 0.4757 accuracy 0.8571 f1 0.7557
+
+Epoch 29|100:
+Batch 1|13: loss 0.5387 accuracy 0.7500
+Batch 11|13: loss 0.1469 accuracy 0.9375
+Loss 0.2514 accuracy 0.9087 f1 0.8419
+Time: 0.03
+Dev: loss 0.4305 accuracy 0.8571 f1 0.7385
+
+Epoch 30|100:
+Batch 1|13: loss 0.0868 accuracy 1.0000
+Batch 11|13: loss 0.8949 accuracy 0.6250
+Loss 0.2650 accuracy 0.9135 f1 0.8864
+Time: 0.03
+Dev: loss 0.3741 accuracy 0.8750 f1 0.7726
+
+Epoch 31|100:
+Batch 1|13: loss 0.1982 accuracy 0.8750
+Batch 11|13: loss 0.3623 accuracy 0.8750
+Loss 0.2448 accuracy 0.9135 f1 0.8228
+Time: 0.03
+Dev: loss 0.3767 accuracy 0.8750 f1 0.7946
+
+Epoch 32|100:
+Batch 1|13: loss 0.1542 accuracy 0.9375
+Batch 11|13: loss 0.3083 accuracy 0.8750
+Loss 0.2561 accuracy 0.9087 f1 0.8334
+Time: 0.03
+Dev: loss 0.3716 accuracy 0.8750 f1 0.8016
+
+Epoch 33|100:
+Batch 1|13: loss 0.2911 accuracy 0.9375
+Batch 11|13: loss 0.3475 accuracy 0.9375
+Loss 0.2396 accuracy 0.9135 f1 0.8317
+Time: 0.03
+Dev: loss 0.3953 accuracy 0.8750 f1 0.7952
+
+Epoch 34|100:
+Batch 1|13: loss 0.1320 accuracy 0.9375
+Batch 11|13: loss 0.1374 accuracy 0.9375
+Loss 0.2386 accuracy 0.9231 f1 0.8596
+Time: 0.03
+Dev: loss 0.4860 accuracy 0.8482 f1 0.7405
+
+Epoch 35|100:
+Batch 1|13: loss 0.1985 accuracy 0.8750
+Batch 11|13: loss 0.2427 accuracy 0.8750
+Loss 0.2354 accuracy 0.9135 f1 0.8659
+Time: 0.03
+Dev: loss 0.4864 accuracy 0.8482 f1 0.7553
+
+Epoch 36|100:
+Batch 1|13: loss 0.3944 accuracy 0.8125
+Batch 11|13: loss 0.2130 accuracy 0.8750
+Loss 0.2414 accuracy 0.9087 f1 0.8546
+Time: 0.03
+Dev: loss 0.3801 accuracy 0.8750 f1 0.7768
+
+Epoch 37|100:
+Batch 1|13: loss 0.0944 accuracy 1.0000
+Batch 11|13: loss 0.2199 accuracy 0.8750
+Loss 0.2325 accuracy 0.9231 f1 0.8547
+Time: 0.03
+Dev: loss 0.4859 accuracy 0.8214 f1 0.7329
+
+Epoch 38|100:
+Batch 1|13: loss 0.1959 accuracy 0.8750
+Batch 11|13: loss 0.0723 accuracy 1.0000
+Loss 0.2333 accuracy 0.9087 f1 0.8320
+Time: 0.03
+Dev: loss 0.3932 accuracy 0.8750 f1 0.7711
+
+Epoch 39|100:
+Batch 1|13: loss 0.1292 accuracy 0.9375
+Batch 11|13: loss 0.5560 accuracy 0.7500
+Loss 0.2273 accuracy 0.9183 f1 0.8787
+Time: 0.04
+Dev: loss 0.4368 accuracy 0.8482 f1 0.7395
+
+Epoch 40|100:
+Batch 1|13: loss 0.0687 accuracy 1.0000
+Batch 11|13: loss 0.3506 accuracy 0.8125
+Loss 0.2322 accuracy 0.9135 f1 0.7897
+Time: 0.03
+Dev: loss 0.4862 accuracy 0.8482 f1 0.7486
+
+Epoch 41|100:
+Batch 1|13: loss 0.1917 accuracy 0.8750
+Batch 11|13: loss 0.1497 accuracy 0.9375
+Loss 0.2229 accuracy 0.9183 f1 0.8267
+Time: 0.03
+Dev: loss 0.5031 accuracy 0.8482 f1 0.8202
+Save model weight !
+
+Epoch 42|100:
+Batch 1|13: loss 0.0855 accuracy 1.0000
+Batch 11|13: loss 0.1295 accuracy 0.9375
+Loss 0.2231 accuracy 0.9183 f1 0.8376
+Time: 0.03
+Dev: loss 0.3812 accuracy 0.8750 f1 0.8190
+
+Epoch 43|100:
+Batch 1|13: loss 0.2386 accuracy 0.9375
+Batch 11|13: loss 0.1307 accuracy 0.9375
+Loss 0.2285 accuracy 0.9231 f1 0.8346
+Time: 0.04
+Dev: loss 0.5092 accuracy 0.8125 f1 0.7048
+
+Epoch 44|100:
+Batch 1|13: loss 0.0566 accuracy 1.0000
+Batch 11|13: loss 0.1762 accuracy 0.9375
+Loss 0.2312 accuracy 0.9231 f1 0.8392
+Time: 0.03
+Dev: loss 0.4312 accuracy 0.8393 f1 0.7496
+
+Epoch 45|100:
+Batch 1|13: loss 0.0796 accuracy 1.0000
+Batch 11|13: loss 0.1191 accuracy 1.0000
+Loss 0.2257 accuracy 0.9231 f1 0.8419
+Time: 0.03
+Dev: loss 0.3914 accuracy 0.8750 f1 0.8089
+
+Epoch 46|100:
+Batch 1|13: loss 0.2835 accuracy 0.9375
+Batch 11|13: loss 0.3515 accuracy 0.8750
+Loss 0.2236 accuracy 0.9231 f1 0.8542
+Time: 0.03
+Dev: loss 0.3823 accuracy 0.8750 f1 0.8158
+
+Epoch 47|100:
+Batch 1|13: loss 0.4498 accuracy 0.8750
+Batch 11|13: loss 0.1549 accuracy 0.9375
+Loss 0.2377 accuracy 0.9087 f1 0.8361
+Time: 0.03
+Dev: loss 0.3838 accuracy 0.8750 f1 0.7509
+
+Epoch 48|100:
+Batch 1|13: loss 0.0641 accuracy 1.0000
+Batch 11|13: loss 0.1055 accuracy 1.0000
+Loss 0.2213 accuracy 0.9231 f1 0.8444
+Time: 0.03
+Dev: loss 0.4035 accuracy 0.8750 f1 0.7639
+
+Epoch 49|100:
+Batch 1|13: loss 0.2533 accuracy 0.8750
+Batch 11|13: loss 0.3112 accuracy 0.8750
+Loss 0.2105 accuracy 0.9279 f1 0.8371
+Time: 0.03
+Dev: loss 0.4990 accuracy 0.8482 f1 0.7247
+
+Epoch 50|100:
+Batch 1|13: loss 0.2129 accuracy 0.8750
+Batch 11|13: loss 0.0629 accuracy 1.0000
+Loss 0.2092 accuracy 0.9231 f1 0.8466
+Time: 0.03
+Dev: loss 0.3874 accuracy 0.8750 f1 0.8010
+
+Epoch 51|100:
+Batch 1|13: loss 0.2084 accuracy 0.9375
+Batch 11|13: loss 0.1276 accuracy 0.9375
+Loss 0.2119 accuracy 0.9279 f1 0.8379
+Time: 0.03
+Dev: loss 0.4896 accuracy 0.8482 f1 0.7340
+
+Epoch 52|100:
+Batch 1|13: loss 0.3919 accuracy 0.8750
+Batch 11|13: loss 0.2425 accuracy 0.9375
+Loss 0.2088 accuracy 0.9279 f1 0.8538
+Time: 0.03
+Dev: loss 0.3881 accuracy 0.8750 f1 0.7493
+
+Epoch 53|100:
+Batch 1|13: loss 0.1221 accuracy 0.9375
+Batch 11|13: loss 0.3037 accuracy 0.8750
+Loss 0.2099 accuracy 0.9279 f1 0.8408
+Time: 0.03
+Dev: loss 0.5069 accuracy 0.8214 f1 0.7380
+
+Epoch 54|100:
+Batch 1|13: loss 0.3898 accuracy 0.8750
+Batch 11|13: loss 0.2067 accuracy 0.8750
+Loss 0.2040 accuracy 0.9279 f1 0.8592
+Time: 0.03
+Dev: loss 0.4750 accuracy 0.8482 f1 0.7607
+
+Epoch 55|100:
+Batch 1|13: loss 0.1682 accuracy 0.9375
+Batch 11|13: loss 0.4249 accuracy 0.8750
+Loss 0.2056 accuracy 0.9279 f1 0.8380
+Time: 0.03
+Dev: loss 0.3861 accuracy 0.8750 f1 0.7554
+
+Epoch 56|100:
+Batch 1|13: loss 0.0400 accuracy 1.0000
+Batch 11|13: loss 0.1976 accuracy 0.9375
+Loss 0.2077 accuracy 0.9135 f1 0.8328
+Time: 0.03
+Dev: loss 0.5377 accuracy 0.8125 f1 0.7265
+
+Epoch 57|100:
+Batch 1|13: loss 0.0980 accuracy 1.0000
+Batch 11|13: loss 0.3453 accuracy 0.8750
+Loss 0.1979 accuracy 0.9375 f1 0.8654
+Time: 0.03
+Dev: loss 0.3920 accuracy 0.8750 f1 0.7244
+
+Epoch 58|100:
+Batch 1|13: loss 0.0798 accuracy 1.0000
+Batch 11|13: loss 0.3148 accuracy 0.9375
+Loss 0.2104 accuracy 0.9231 f1 0.8381
+Time: 0.03
+Dev: loss 0.3906 accuracy 0.8750 f1 0.7408
+
+Epoch 59|100:
+Batch 1|13: loss 0.0646 accuracy 1.0000
+Batch 11|13: loss 0.0932 accuracy 1.0000
+Loss 0.2120 accuracy 0.9279 f1 0.8868
+Time: 0.03
+Dev: loss 0.3854 accuracy 0.8661 f1 0.7939
+
+Epoch 60|100:
+Batch 1|13: loss 0.0632 accuracy 1.0000
+Batch 11|13: loss 0.2124 accuracy 0.9375
+Loss 0.1975 accuracy 0.9231 f1 0.8026
+Time: 0.03
+Dev: loss 0.4854 accuracy 0.8393 f1 0.7222
+
+Epoch 61|100:
+Batch 1|13: loss 0.1327 accuracy 1.0000
+Batch 11|13: loss 0.0817 accuracy 1.0000
+Loss 0.1958 accuracy 0.9423 f1 0.9017
+Time: 0.03
+Dev: loss 0.4350 accuracy 0.8393 f1 0.6856
+
+Epoch 62|100:
+Batch 1|13: loss 0.0552 accuracy 1.0000
+Batch 11|13: loss 0.2571 accuracy 0.8750
+Loss 0.1937 accuracy 0.9375 f1 0.8924
+Time: 0.03
+Dev: loss 0.3901 accuracy 0.8750 f1 0.7795
+
+Epoch 63|100:
+Batch 1|13: loss 0.2086 accuracy 0.8750
+Batch 11|13: loss 0.3335 accuracy 0.9375
+Loss 0.2071 accuracy 0.9231 f1 0.8646
+Time: 0.04
+Dev: loss 0.3965 accuracy 0.8661 f1 0.7621
+
+Epoch 64|100:
+Batch 1|13: loss 0.3392 accuracy 0.9375
+Batch 11|13: loss 0.2998 accuracy 0.8750
+Loss 0.1990 accuracy 0.9279 f1 0.8490
+Time: 0.03
+Dev: loss 0.3924 accuracy 0.8661 f1 0.7610
+
+Epoch 65|100:
+Batch 1|13: loss 0.3515 accuracy 0.8750
+Batch 11|13: loss 0.1002 accuracy 0.9375
+Loss 0.2037 accuracy 0.9279 f1 0.8266
+Time: 0.03
+Dev: loss 0.4453 accuracy 0.8393 f1 0.7603
+
+Epoch 66|100:
+Batch 1|13: loss 0.0837 accuracy 1.0000
+Batch 11|13: loss 0.1687 accuracy 0.8750
+Loss 0.1875 accuracy 0.9327 f1 0.8788
+Time: 0.03
+Dev: loss 0.5295 accuracy 0.8125 f1 0.7303
+
+Epoch 67|100:
+Batch 1|13: loss 0.4496 accuracy 0.8750
+Batch 11|13: loss 0.2788 accuracy 0.9375
+Loss 0.1858 accuracy 0.9279 f1 0.8624
+Time: 0.03
+Dev: loss 0.5335 accuracy 0.8393 f1 0.7654
+
+Epoch 68|100:
+Batch 1|13: loss 0.1369 accuracy 0.9375
+Batch 11|13: loss 0.4141 accuracy 0.8125
+Loss 0.1880 accuracy 0.9327 f1 0.8874
+Time: 0.03
+Dev: loss 0.3916 accuracy 0.8661 f1 0.7650
+
+Epoch 69|100:
+Batch 1|13: loss 0.0581 accuracy 1.0000
+Batch 11|13: loss 0.0982 accuracy 0.9375
+Loss 0.1855 accuracy 0.9375 f1 0.8847
+Time: 0.03
+Dev: loss 0.3942 accuracy 0.8661 f1 0.7875
+
+Epoch 70|100:
+Batch 1|13: loss 0.2938 accuracy 0.9375
+Batch 11|13: loss 0.1047 accuracy 0.9375
+Loss 0.1850 accuracy 0.9471 f1 0.9134
+Time: 0.03
+Dev: loss 0.3967 accuracy 0.8661 f1 0.7937
+
+Epoch 71|100:
+Batch 1|13: loss 0.0554 accuracy 1.0000
+Batch 11|13: loss 0.1006 accuracy 1.0000
+Loss 0.1864 accuracy 0.9423 f1 0.8993
+Time: 0.03
+Dev: loss 0.5305 accuracy 0.8482 f1 0.7519
+
+Epoch 72|100:
+Batch 1|13: loss 0.0583 accuracy 1.0000
+Batch 11|13: loss 0.0718 accuracy 1.0000
+Loss 0.1956 accuracy 0.9279 f1 0.8837
+Time: 0.03
+Dev: loss 0.5398 accuracy 0.8393 f1 0.7668
+
+Epoch 73|100:
+Batch 1|13: loss 0.1058 accuracy 1.0000
+Batch 11|13: loss 0.2406 accuracy 0.9375
+Loss 0.1797 accuracy 0.9423 f1 0.8954
+Time: 0.03
+Dev: loss 0.4429 accuracy 0.8393 f1 0.7128
+
+Epoch 74|100:
+Batch 1|13: loss 0.1182 accuracy 0.9375
+Batch 11|13: loss 0.2270 accuracy 0.9375
+Loss 0.1782 accuracy 0.9375 f1 0.8905
+Time: 0.03
+Dev: loss 0.5654 accuracy 0.8125 f1 0.6690
+
+Epoch 75|100:
+Batch 1|13: loss 0.4396 accuracy 0.8750
+Batch 11|13: loss 0.0376 accuracy 1.0000
+Loss 0.1785 accuracy 0.9423 f1 0.9133
+Time: 0.03
+Dev: loss 0.3990 accuracy 0.8661 f1 0.7903
+
+Epoch 76|100:
+Batch 1|13: loss 0.1051 accuracy 1.0000
+Batch 11|13: loss 0.1285 accuracy 0.9375
+Loss 0.1820 accuracy 0.9375 f1 0.8887
+Time: 0.03
+Dev: loss 0.4643 accuracy 0.8125 f1 0.6897
+
+Epoch 77|100:
+Batch 1|13: loss 0.1748 accuracy 0.8750
+Batch 11|13: loss 0.5898 accuracy 0.8125
+Loss 0.1761 accuracy 0.9423 f1 0.8888
+Time: 0.04
+Dev: loss 0.3976 accuracy 0.8661 f1 0.7859
+
+Epoch 78|100:
+Batch 1|13: loss 0.1071 accuracy 1.0000
+Batch 11|13: loss 0.1707 accuracy 0.8750
+Loss 0.1762 accuracy 0.9375 f1 0.8651
+Time: 0.03
+Dev: loss 0.4210 accuracy 0.8393 f1 0.7195
+
+Epoch 79|100:
+Batch 1|13: loss 0.3071 accuracy 0.9375
+Batch 11|13: loss 0.1776 accuracy 0.9375
+Loss 0.1847 accuracy 0.9423 f1 0.8946
+Time: 0.03
+Dev: loss 0.4447 accuracy 0.8393 f1 0.7528
+
+Epoch 80|100:
+Batch 1|13: loss 0.0832 accuracy 1.0000
+Batch 11|13: loss 0.0876 accuracy 1.0000
+Loss 0.1939 accuracy 0.9423 f1 0.8869
+Time: 0.03
+Dev: loss 0.4448 accuracy 0.8393 f1 0.7436
+
+Epoch 81|100:
+Batch 1|13: loss 0.0646 accuracy 1.0000
+Batch 11|13: loss 0.3581 accuracy 0.8125
+Loss 0.1752 accuracy 0.9327 f1 0.8734
+Time: 0.03
+Dev: loss 0.4422 accuracy 0.8393 f1 0.6884
+
+Epoch 82|100:
+Batch 1|13: loss 0.2009 accuracy 0.9375
+Batch 11|13: loss 0.7557 accuracy 0.7500
+Loss 0.1723 accuracy 0.9423 f1 0.9239
+Time: 0.03
+Dev: loss 0.5355 accuracy 0.8125 f1 0.6837
+
+Epoch 83|100:
+Batch 1|13: loss 0.3290 accuracy 0.9375
+Batch 11|13: loss 0.3764 accuracy 0.8750
+Loss 0.1678 accuracy 0.9519 f1 0.9232
+Time: 0.03
+Dev: loss 0.4002 accuracy 0.8661 f1 0.7820
+
+Epoch 84|100:
+Batch 1|13: loss 0.1344 accuracy 1.0000
+Batch 11|13: loss 0.5359 accuracy 0.8125
+Loss 0.1670 accuracy 0.9471 f1 0.9262
+Time: 0.04
+Dev: loss 0.5367 accuracy 0.8393 f1 0.7373
+
+Epoch 85|100:
+Batch 1|13: loss 0.0964 accuracy 1.0000
+Batch 11|13: loss 0.4600 accuracy 0.8125
+Loss 0.1697 accuracy 0.9423 f1 0.8884
+Time: 0.03
+Dev: loss 0.4026 accuracy 0.8661 f1 0.7726
+
+Epoch 86|100:
+Batch 1|13: loss 0.2854 accuracy 0.9375
+Batch 11|13: loss 0.4095 accuracy 0.8750
+Loss 0.1644 accuracy 0.9471 f1 0.9177
+Time: 0.03
+Dev: loss 0.4068 accuracy 0.8661 f1 0.7421
+
+Epoch 87|100:
+Batch 1|13: loss 0.1171 accuracy 0.9375
+Batch 11|13: loss 0.3402 accuracy 0.9375
+Loss 0.1722 accuracy 0.9375 f1 0.8857
+Time: 0.04
+Dev: loss 0.4350 accuracy 0.8393 f1 0.7398
+
+Epoch 88|100:
+Batch 1|13: loss 0.2100 accuracy 0.8750
+Batch 11|13: loss 0.1941 accuracy 0.8750
+Loss 0.1719 accuracy 0.9423 f1 0.9008
+Time: 0.03
+Dev: loss 0.4204 accuracy 0.8661 f1 0.7469
+
+Epoch 89|100:
+Batch 1|13: loss 0.0706 accuracy 1.0000
+Batch 11|13: loss 0.2143 accuracy 0.9375
+Loss 0.1855 accuracy 0.9423 f1 0.9162
+Time: 0.03
+Dev: loss 0.3981 accuracy 0.8661 f1 0.7841
+
+Epoch 90|100:
+Batch 1|13: loss 0.1050 accuracy 1.0000
+Batch 11|13: loss 0.2990 accuracy 0.8750
+Loss 0.1744 accuracy 0.9423 f1 0.9046
+Time: 0.03
+Dev: loss 0.5255 accuracy 0.8304 f1 0.6993
+
+Epoch 91|100:
+Batch 1|13: loss 0.1796 accuracy 0.9375
+Batch 11|13: loss 0.1213 accuracy 1.0000
+Loss 0.1683 accuracy 0.9519 f1 0.9263
+Time: 0.04
+Dev: loss 0.4420 accuracy 0.8393 f1 0.7204
+
+Epoch 92|100:
+Batch 1|13: loss 0.0434 accuracy 1.0000
+Batch 11|13: loss 0.0494 accuracy 1.0000
+Loss 0.1855 accuracy 0.9567 f1 0.9296
+Time: 0.03
+Dev: loss 0.5034 accuracy 0.8393 f1 0.7147
+
+Epoch 93|100:
+Batch 1|13: loss 0.1234 accuracy 0.9375
+Batch 11|13: loss 0.1623 accuracy 0.9375
+Loss 0.1579 accuracy 0.9519 f1 0.9057
+Time: 0.03
+Dev: loss 0.4602 accuracy 0.8393 f1 0.7458
+
+Epoch 94|100:
+Batch 1|13: loss 0.3201 accuracy 0.8750
+Batch 11|13: loss 0.0783 accuracy 1.0000
+Loss 0.1581 accuracy 0.9567 f1 0.9404
+Time: 0.03
+Dev: loss 0.4639 accuracy 0.8393 f1 0.7297
+
+Epoch 95|100:
+Batch 1|13: loss 0.1369 accuracy 0.9375
+Batch 11|13: loss 0.1069 accuracy 0.9375
+Loss 0.1581 accuracy 0.9471 f1 0.8959
+Time: 0.03
+Dev: loss 0.4612 accuracy 0.8393 f1 0.7628
+
+Epoch 96|100:
+Batch 1|13: loss 0.1416 accuracy 0.9375
+Batch 11|13: loss 0.0383 accuracy 1.0000
+Loss 0.1601 accuracy 0.9471 f1 0.9181
+Time: 0.03
+Dev: loss 0.4754 accuracy 0.8304 f1 0.6622
+
+Epoch 97|100:
+Batch 1|13: loss 0.1076 accuracy 1.0000
+Batch 11|13: loss 0.2727 accuracy 0.8750
+Loss 0.1553 accuracy 0.9471 f1 0.9000
+Time: 0.03
+Dev: loss 0.4485 accuracy 0.8393 f1 0.7275
+
+Epoch 98|100:
+Batch 1|13: loss 0.1995 accuracy 0.9375
+Batch 11|13: loss 0.0636 accuracy 1.0000
+Loss 0.1527 accuracy 0.9615 f1 0.9353
+Time: 0.04
+Dev: loss 0.4137 accuracy 0.8661 f1 0.7731
+
+Epoch 99|100:
+Batch 1|13: loss 0.0303 accuracy 1.0000
+Batch 11|13: loss 0.1138 accuracy 0.9375
+Loss 0.1514 accuracy 0.9567 f1 0.9259
+Time: 0.03
+Dev: loss 0.4670 accuracy 0.8393 f1 0.6566
+
+Epoch 100|100:
+Batch 1|13: loss 0.2959 accuracy 0.8750
+Batch 11|13: loss 0.1130 accuracy 0.9375
+Loss 0.1525 accuracy 0.9567 f1 0.9377
+Time: 0.03
+Dev: loss 0.4347 accuracy 0.8571 f1 0.7102
+
+Restore best meta model !
+Restore roberta model !
+Test: accuracy 0.8868 f1 0.7667 
+
+Restore bert model !
+Test: accuracy 0.8615 f1 0.7183 
+
+Restore xlnet model !
+Test: accuracy 0.8815 f1 0.7182 
+
+Restore xlmr model !
+Test: accuracy 0.8668 f1 0.6906 
+
+Restore meta model !
+
+Meta: accuracy 0.8895 f1 0.7365 
+

@@ -1,0 +1,29 @@
+- Method: all
+- Dataset: res16
+
+roberta
+Restore roberta model !
+Test: accuracy 0.8855 f1 0.7661 
+
+bert
+Restore bert model !
+Test: accuracy 0.8628 f1 0.7098 
+
+xlnet
+Restore xlnet model !
+Test: accuracy 0.8802 f1 0.7262 
+
+xlmr
+Restore xlmr model !
+Test: accuracy 0.8695 f1 0.6926 
+
+Hard-voting: accuracy 0.8868 f1 0.7129 
+
+Soft-voting: accuracy 0.8935 f1 0.7548 
+
+Weighted Averaging: accuracy 0.8935 f1 0.7548 
+
+MLP Blending: accuracy 0.8975 f1 0.7503 
+
+Linear Blending: accuracy 0.8868 f1 0.7600 
+
