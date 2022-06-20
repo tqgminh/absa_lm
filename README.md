@@ -2,7 +2,7 @@
 
 In this project, I experiment on Aspect-based Sentiment Analysis (ABSA) task by fine-tuning some state-of-the-art pretrained language models including [BERT (Devlin et al., 2019)](https://arxiv.org/abs/1810.04805), [XLNet (Yang et al., 2019)](https://arxiv.org/abs/1906.08237), [RoBERTa (Liu et al., 2019)](https://arxiv.org/abs/1907.11692) and [XLM-R (Conneau et al., 2020)](https://arxiv.org/abs/1911.02116). This task gets a comment and an aspect as input, and return the sentiment that comment expresses about that aspect. For example, with the comment "*But the staff was so horrible to us*" and the aspect "*Service*", the corresponding sentiment is "*Negative*".
 
-Then I improve the results by using emsemble learning technique including voting, weighted averaging and blending.
+To improve the result based on the models above, I applied some emsemble learning techniques including voting, weighted averaging and blending.
 
 # Dataset
 
@@ -73,6 +73,8 @@ python train_meta_mlp.py \
 | Soft-voting | 92.29/85.61 | 89.35/75.48 |
 | Weighted Averaging | 92.39/85.91 | 89.35/75.48 |
 | Blending | 92.70/86.46 | 89.75/75.03 |
+
+Note: The first value is accuracy and the second value is macro-F1 score.
 
 # Acknowledgement
 
