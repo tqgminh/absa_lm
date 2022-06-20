@@ -67,12 +67,12 @@ python train_meta_mlp.py \
 | ------------------ | ------------------ | ------------------ |
 | BERT | 88.49/80.29 | 86.28/70.98 |
 | XLNet | 91.26/84.54 | 88.02/72.62 |
-| ROBERTa | 90.96/83.56 | 88.55/76.61 |
+| ROBERTa | 90.96/83.56 | 88.55/**76.61** |
 | XLM-R | 88.59/79.96 | 86.95/68.29 |
 | Hard-voting | 91.78/84.34 | 88.68/71.29 |
 | Soft-voting | 92.29/85.61 | 89.35/75.48 |
 | Weighted Averaging | 92.39/85.91 | 89.35/75.48 |
-| Blending | 92.70/86.46 | 89.75/75.03 |
+| Blending | **92.70**/**86.46** | **89.75**/75.03 |
 
 Note: The first value is accuracy and the second value is macro-F1 score.
 
