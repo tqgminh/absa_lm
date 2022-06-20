@@ -53,7 +53,7 @@ After training all 4 models for each dataset, you can train meta-model for Blend
 python train_meta_mlp.py \
 --dataset [res14 or res16] \
 --optimizer [adam, sgd, adagrad or rmsprop] \
---lr 1e-5 \
+--lr 0.001 \
 --num_epoch 100 \
 --batch_size 64 \
 --log_step 10 \
