@@ -1,6 +1,5 @@
 numpy
 bs4
-lxml
 transformers==4.20.0
 torch
 sentencepiece

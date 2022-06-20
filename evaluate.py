@@ -80,22 +80,6 @@ def mlp_blending(all_pred, output, logger, weight_folder, hidden_dim, polarities
 
     plot_cf_matrix(output, meta_pred_, cfm_folder, dataset, 'mlp_blending')
 
-def linear_blending(all_pred, output, logger, weight_folder, cfm_folder, dataset, device):
-    all_pred = np.transpose(all_pred, (1, 2, 0))
-    all_pred = torch.tensor(all_pred, dtype=torch.float).to(device)
-
-    meta_model = LinearClassifier(all_pred.shape[-1])
-    meta_model.load_state_dict(torch.load(os.path.join(weight_folder, dataset, f'meta-{args.dataset}-blending-linear.pth'), map_location=device))
-    meta_model.to(device)
-
-    with torch.no_grad():
-        meta_pred = meta_model(all_pred)
-        meta_pred_ = meta_pred.argmax(dim=1).cpu().detach().numpy()
-
-        logger.info(f'Linear Blending: accuracy {metrics.accuracy_score(output, meta_pred_):.4f} f1 {metrics.f1_score(output, meta_pred_, average="macro"):.4f} \n')
-
-    plot_cf_matrix(output, meta_pred_, cfm_folder, dataset, 'linear_blending')
-
 def plot_cf_matrix(output, pred, cfm_folder, dataset, method):
     cf_matrix = metrics.confusion_matrix(output, pred)
     heatmap = sns.heatmap(cf_matrix, annot=True, xticklabels=['Positive', 'Negative', 'Neutral'], yticklabels=['Positive', 'Negative', 'Neutral'], fmt='d')
@@ -210,7 +194,6 @@ if __name__ == '__main__':
         soft_voting(all_pred, output, logger, cfm_folder, args.dataset)
         weighted_averaging(all_pred, output, logger, cfm_folder, args.dataset)
         mlp_blending(all_pred, output, logger, weight_folder, hidden_dim, polarities_dim, cfm_folder, args.dataset, device)
-        linear_blending(all_pred, output, logger, weight_folder, cfm_folder, args.dataset, device)
     
     elif args.method == 'hard-voting':
         hard_voting(all_pred, output, logger, cfm_folder, args.dataset)

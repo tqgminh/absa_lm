@@ -28,6 +28,15 @@ To get the report about results of all models for each dataset, run this command
 python evaluate.py --dataset [res14 or res16]
 ```
 
+Inference with a text file (two lines: the first line is the comment, the second line is the aspect):
+
+```
+python inference.py \
+--method [bert, roberta, xlnet, xlmr, hard-voting, soft-voting, weighted_averaging or blending] \
+--dataset [res14 or res16] \ 
+--input [path to the text file]
+```
+
 # How to train
 
 ```
@@ -50,7 +59,7 @@ python train.py \
 After training all 4 models for each dataset, you can train meta-model for Blending:
 
 ```
-python train_meta_mlp.py \
+python train_meta.py \
 --dataset [res14 or res16] \
 --optimizer [adam, sgd, adagrad or rmsprop] \
 --lr 0.001 \

@@ -25,5 +25,3 @@ Weighted Averaging: accuracy 0.9239 f1 0.8591
 
 MLP Blending: accuracy 0.9270 f1 0.8646 
 
-Linear Blending: accuracy 0.9209 f1 0.8578 
-
